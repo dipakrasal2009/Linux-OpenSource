@@ -1,0 +1,11 @@
+Netstat all commands
+
+1) netstat -a | more    =>   show both listening and non listening sockets
+2) netstat -at          =>   it shows the list of all specific ports
+3) netstat -au          =>   it displays all UDP ports
+4) netstat -l           =>   you can see only the port that are active listening for incomming connection
+5) netstat -lt    	=> this command specifically lists the TCP ports that are in a listening state.
+6) netstat -lu		=> this command focuses on displaying only the UDP ports that are actively listening.
+7) netstat -lx		=> this option shows only the UNIX ports that are in a listening state.
+8) Nslookup google.com  => this command is use to show the ip address of any DNS and show the DNS of any IP address
+
