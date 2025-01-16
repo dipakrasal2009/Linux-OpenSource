@@ -1,0 +1,9 @@
+1) ping = check the network connectivity
+
+
+2) nslookup = ip to domain name and domein name to IP
+
+3) ifconfig = it give the all network cards information
+
+
+4) dig  google.com  => It retrieves information about DNS name servers.
