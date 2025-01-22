@@ -44,5 +44,7 @@ useradd <name_of_User> => crerate the new user
 var/log => this file contains the login info
 
 
-
+to configure the ssh
+.pem file is store the location /home/.ssh    directiry
+then use the ssh key
 
