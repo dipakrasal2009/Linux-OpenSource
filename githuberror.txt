@@ -1,0 +1,37 @@
+hppc@dipak-rasal:~/Desktop/github/Linux$ git push
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+
+
+The error indicates that your system is unable to resolve the hostname github.com, likely due to a DNS or network issue. Here are steps to troubleshoot and resolve this problem:
+
+1. Check Internet Connectivity
+Verify if your internet connection is working by pinging a website:
+bash
+Copy
+Edit
+ping -c 4 google.com
+If this fails, resolve your internet connection issues first.
+2. Check DNS Resolution
+Test if your system can resolve github.com:
+bash
+Copy
+Edit
+nslookup github.com
+If this fails, try changing your DNS settings to use public DNS servers like Google DNS or Cloudflare:
+Edit the /etc/resolv.conf file:
+bash
+Copy
+Edit
+sudo nano /etc/resolv.conf
+Add the following lines:
+Copy
+Edit
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+Save and exit. Test again.
+
