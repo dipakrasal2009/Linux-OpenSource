@@ -62,7 +62,7 @@ to add the destination on device
 to add the gateway we can use this command
 #route add -net 8.0.0.0 gw 10.0.2.2 netmask 255.0.0.0 dev enp0s3
 
-------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 
 
