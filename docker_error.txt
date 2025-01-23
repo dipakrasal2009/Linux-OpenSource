@@ -1,0 +1,47 @@
+
+
+is the docker domain is running?
+
+
+ 1965  systemctl status docker
+ 1966  systemctl status docker.io
+ 1967  systemctl status dockerd
+ 1968  cd /etc/
+ 1969  ls
+ 1970  cd services 
+ 1971  cd systemd/system
+ 1972  ls
+ 1973  cd
+ 1974  sudo rm -rf /var/lib/docker
+ 1975  sudo rm -rf /var/lib/docker~
+ 1976  sudo rm -rf /var/lib/docker
+ 1977  cd /var/lib/
+ 1978  ls
+ 1979  snap list
+ 1980  snap remove docker
+ 1981  systemctl status docker
+ 1982  sudo rm -rf /var/lib/docker
+ 1983  sudo rm -rf /var/lib/containerd
+ 1984  sudo rm -rf /var/lib/docker
+ 1985  snap list
+ 1986  sudo rm -rf /var/lib/docker
+ 1987  ps -aux
+ 1988  ps -aux | grep docker
+ 1989  kill -9 1696295
+ 1990  sudo apt-get update
+ 1991  sudo apt-get install ca-certificates curl
+ 1992  sudo install -m 0755 -d /etc/apt/keyrings
+ 1993  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+ 1994  sudo chmod a+r /etc/apt/keyrings/docker.asc
+ 1995  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1996  sudo apt-get update
+ 1997  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+ 1998  sudo docker run hello-world
+ 1999  docker pull ubuntu
+ 2000  docker images
+ 2001  clear
+ 2002  ls
+ 2003  clear
+ 2004  history
+root@dipak-rasal:/var/lib#
