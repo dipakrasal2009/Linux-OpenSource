@@ -1,0 +1,41 @@
+Today Tasks
+
+=>  7 layers OSI model 
+
+1. Physical Layer
+2. Data Link Layer
+3. Network Layer
+4. Transport Layer
+5. Session Layer
+6.Presentation Layer
+7. Application Layer
+
+ 1. Physical Layer:
+	-> it represent lowest level of data transmission
+	-> refers to row unstructured data bits
+	-> and process converting them electrical signals
+	     for device to read
+	-> Phycial Hardwares : Network Hub, modems, adapter
+						    cabling and network controllers
+						    work in this layer
+	-> Bluetooth, Ethernet and USB describe phycical layer
+		specification.
+
+
+2.  Data Link Layer : 
+	-> deals with data packageinto frames
+	-> Technologies in this layer assist in node to node data transfer
+	-> this layer divided into two sublayers : 
+		1 Media access controle : host node connect with one another
+		2 Logical Link Controle : which checks for errors and orchestrates
+						   frame flow and synchronization
+	-> data link layer protocol is point to point protocol(PPP)
+
+3.  Network Layer : 
+	-> this layer is responsible  for sendin and receving fata frames structured in packets.
+	-> Technologis : use routers to send packets to nodes on different networks
+	-> the network layer might split or fragment the message if it exceed the maximum network packet size
+
+4. Transport Layer : 
+	-> 
+	
