@@ -1,0 +1,71 @@
+23 Jan 2025
+---------------------------------------------------------------
+
+any number that is 4 byte in size that is the valid ip address
+
+proof : 
+# ifconfig enp0s3 12345
+// using this command you can chang the ip address
+
+1 octet is a group of 8 bits
+
+nslookup = name server look up
+
+it will show the IP address of the DNS
+
+#nslookup www.google.com
+-----------------------------------------------------------------
+
+bc = binary calculator in linux
+
+20*2^24 + 207*2^16 + 73*2^8 + 82*2^0
+349129042
+
+we can convert ip into single decimal format
+
+
+****************************************************************
+connectivity
+
+when we want to connect two systems with the network
+
+1) : both system have some physical hardware
+2) : we need runing OS
+3) : both side have some device that is NIC (network card)/ethernet card
+4) : IP Address
+5) : network
+-----------------------------------------------------------------------
+
+switch : when network is same we use the switch
+router : network is deffrent then we use router
+
+___.___.___.___
+
+0-126 ---> class A     10.0.2.3
+128-191 --->class B	172.22.34.3
+192-223------>Class C   220.32 .23.3
+
+-------------------------------------------------------------------------
+netmask
+route -n => show the complete routing table
+
+to delete the destination
+#route del -net 0.0.0.0
+
+when we elete this destination it want create the network packet
+it is not ping IP
+
+to add the destination on device
+# route add -net 8.0.0.0 netmask 255.0.0.0 dev enp0s3
+** without gateway we cant connect the other network
+
+to add the gateway we can use this command
+#route add -net 8.0.0.0 gw 10.0.2.2 netmask 255.0.0.0 dev enp0s3
+
+------------------------------------------------------------------------------
+
+
+
+
+
+
