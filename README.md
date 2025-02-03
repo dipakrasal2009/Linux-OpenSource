@@ -48,3 +48,12 @@ to configure the ssh
 .pem file is store the location /home/.ssh    directiry
 then use the ssh key
 
+
+
+
+
+
+
+
+change the user permission of sudo
+/etc/sudoers
