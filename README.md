@@ -51,6 +51,10 @@ then use the ssh key
 
 
 
+ 1981  man cut 
+ 1982  manawk
+ 1983  man awk
+ 1984  man sed
 
 
 
