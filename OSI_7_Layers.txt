@@ -38,4 +38,12 @@ Today Tasks
 
 4. Transport Layer : 
 	-> 
-	
+
+
+5.  Session Layer : 
+
+
+6.  Presentation Layer : 
+
+
+7.  Application Layer : 	
