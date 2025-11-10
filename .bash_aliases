@@ -44,3 +44,5 @@ alias highmem='ps aux --sort=-%mem | head -n 10'
 
 #source ~/.bashrc
 
+#wifilist
+alias wifilist='nmcli dev wifi list'
